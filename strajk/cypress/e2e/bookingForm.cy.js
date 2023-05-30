@@ -33,18 +33,16 @@ describe('booking form', () => {
         cy.get('.shoes__input').eq(2).type('30').should('have.value', '30');
         cy.get('.shoes__input').eq(3).type('40').should('have.value', '40');
         cy.get('.booking__button').click();
-
         cy.wait(1000);
         cy.location('pathname').should('include', '/confirmation')
-
         cy.get('.input__field').should('be.disabled');
         cy.get('.input__field').eq(3).invoke('val').should('have.length.greaterThan', 9)
         cy.get('.confirmation__button').click();
-    
         cy.get('.top__title').should('have.text', 'See you soon!');
 
     })
-    //Felhantering
+    
+      // Error handling
 
     it('should display an error message if trying to book an empty form', () =>{
         cy.get('.booking__button').click();

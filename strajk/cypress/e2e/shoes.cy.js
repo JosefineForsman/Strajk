@@ -16,7 +16,6 @@ describe('Shoe size input', () => {
 
         cy.get('.shoes__button').click().click()
         cy.get('.shoes__form').should('contain', 2);
-
         cy.get('.shoes__button--small').eq(1).click();
         cy.get('.shoes__form').should('contain', 1);
     })
@@ -31,15 +30,13 @@ describe('Shoe size input', () => {
         cy.get('.shoes__input').eq(0).type('39').should('have.value', '39');
         cy.get('.shoes__input').eq(1).type('40').should('have.value', '40');
     })
-    // Felhantering
+    // Error handling
 
     it('should show a message to the user if the quantity of shoes and the number of players do not match', ()=>{
         cy.get('.shoes__button').click().click().click();
-
         cy.get('.shoes__input').eq(0).type('39').should('have.value', '39');
         cy.get('.shoes__input').eq(1).type('35').should('have.value', '35');
         cy.get('.shoes__input').eq(2).type('30').should('have.value', '30');
-
         cy.get('.booking__button').click();
         cy.get('.error-message__text').should('contain', 'Fill out all the fields and make sure that people and shoes is the same number.')
     })

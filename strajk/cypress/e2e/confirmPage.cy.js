@@ -30,7 +30,7 @@ describe('confirm page', () => {
         cy.get('.input__field').eq(3).invoke('val').should('have.length.greaterThan', 9)
     })
 
-    //fel hantering
+      // Error handling
 
     it('should reset booking information', () =>{
         cy.get('.confirmation__button').click();
