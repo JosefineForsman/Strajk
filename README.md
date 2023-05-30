@@ -12,8 +12,11 @@ Userstorys:
 - Skall gå att genomföra en komplett bokning.
 
 ##### Acceptanskriterier felhantering:
-- Skall visas ett fel meddelande om användaren försöker göra en tom bokning.
-- Skall visas ett meddelande om användaren glömt fylla i 1 eller flera inmatningsfält.
+- Skall visa ett felmeddelande om användaren försöker göra en tom bokning.
+- Skall visa ett felmeddelande om användaren glömt att fylla i datum inmatningsfältet.
+- Skall visa ett felmeddelande om användaren glömt att fylla i tid inmatningsfältet.
+- Skall visa ett felmeddelande om användaren glömt att fylla i antal spelare inmatningsfältet.
+- Skall visa ett felmeddelande om användaren glömt att fylla i antal banor inmatningsfältet.
 
 #### 2. Som användare vill jag kunna välja skostorlek för varje spelare så varje spelare får skor som passar.
 ##### Acceptanskriterier:
@@ -41,6 +44,7 @@ Userstorys:
 
 #### 5. Som användare vill jag kunna navigera mellan boknings-och bekräftelsevyn.
 Acceptanskriterier:
--  Skall gå att trycka på nac-iconen.
+- Skall visa nav-iconen.
+-  Skall gå att trycka på nav-iconen.
 - Skalll gå att navigera runt sig på hemsidan på ett korrekt sätt.
 
