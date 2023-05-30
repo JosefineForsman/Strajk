@@ -13,7 +13,7 @@ Userstorys:
 
 ##### Acceptanskriterier felhantering:
 - Skall visas ett fel meddelande om användaren försöker göra en tom bokning.
-- Skall visas ett meddelande om användaren glömt fylla i 1 eller flera inmatningsformulär
+- Skall visas ett meddelande om användaren glömt fylla i 1 eller flera inmatningsfält.
 
 #### 2. Som användare vill jag kunna välja skostorlek för varje spelare så varje spelare får skor som passar.
 ##### Acceptanskriterier:
