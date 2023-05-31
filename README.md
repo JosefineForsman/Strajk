@@ -2,8 +2,8 @@
 
 Userstorys:
 
-#### 1. Som användare vill jag kunna boka datum och tid samt ange antal spelare så att jag kan reservera 1 eller flera baner i bowlinghallen.
-##### Acceptanskriterier:
+##### 1. Som användare vill jag kunna boka datum och tid samt ange antal spelare så att jag kan reservera 1 eller flera baner i bowlinghallen.
+#### Acceptanskriterier:
 - Bokningsformuläret skall visa fyra inmatningsfält.
 - Det skall finnas ett inmatningsfält där användaren kan fylla i datum.
 - Det skall finnas ett inmatningsfält där användaren kan fylla i tid.
@@ -11,15 +11,15 @@ Userstorys:
 - Det skall finnas ett inmatningsfält där användaren kan fylla i antal banor.
 - Det skall vara möjligt att göra en komplett bokning.
 
-##### Acceptanskriterier felhantering:
+#### Acceptanskriterier felhantering:
 - Visa felmeddelande om användaren försöker göra en tom bokning eller glömmer att fylla i något av de obligatoriska fälten.
 
-#### 2. Som användare vill jag kunna välja skostorlek för varje spelare så varje spelare får skor som passar.
-##### Acceptanskriterier:
+##### 2. Som användare vill jag kunna välja skostorlek för varje spelare så varje spelare får skor som passar.
+#### Acceptanskriterier:
 - Visa ett nytt inputfält för skostorlek när man trycker på "+"-knappen.
 - Möjliggör att det går att fylla i skostorleksinmatningsfältet.
 
-##### Acceptanskriterier felhantering:
+#### Acceptanskriterier felhantering:
 - Visa meddelande till användaren om antalet skostorlekar inte matchar antalet spelare.
 
 #### 3. Som användare vill jag kunna ta bort ett fält för skostorlek om jag råkade klicka i ett för mycket så jag inte boka skor i onödan.
