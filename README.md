@@ -16,8 +16,8 @@ Userstorys:
 
 #### 2. Som användare vill jag kunna välja skostorlek för varje spelare så varje spelare får skor som passar.
 ##### Acceptanskriterier:
-######- Visa ett nytt inputfält för skostorlek när man trycker på "+"-knappen.
-######- Möjliggör att det går att fylla i skostorleksinmatningsfältet.
+- Visa ett nytt inputfält för skostorlek när man trycker på "+"-knappen.
+- Möjliggör att det går att fylla i skostorleksinmatningsfältet.
 
 ##### Acceptanskriterier felhantering:
 - Visa meddelande till användaren om antalet skostorlekar inte matchar antalet spelare.
