@@ -24,7 +24,7 @@
 
 #### Acceptanskriterier:
 - Visa en "Ta bort"-knapp bredvid varje skostorleksfält.
-- Ta bort motsvarande skostorleksfält när "Ta bort"-knappen klickas.
+- Ta bort motsvarande skostorleksfält när man trycker på "Ta bort"-knappen.
 
 ### 4. Som användare vill jag kunna skicka iväg min reservation och få tillbaka ett ett bokningsnummer och totalsumma så jag vet hur mycket jag ska betala. (120 kr / person + 100 kr / bana).
 
